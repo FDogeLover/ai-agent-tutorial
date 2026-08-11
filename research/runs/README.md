@@ -18,6 +18,8 @@ YYYY-MM-DD-产品名-客户端版本/
 - `acceptance-checklist.md`：逐项验收；
 - `evidence/screenshots/`：完成脱敏的截图和图注。
 
+截图证据优先覆盖最终成品预览、产物列表、文件变更/diff 和仓库记录。内容质量、产品交互、任务效率与 Credits/API 成本分别记录；默认 `Auto` 与固定模型/BYOK 实验不得混在同一运行目录。
+
 ## 原则
 
 - 第一次运行使用默认模式和零额外指导；
