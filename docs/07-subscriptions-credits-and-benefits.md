@@ -18,14 +18,14 @@
 4. 第三方切换或中转：改变模型通道、配置和账单，不等同于官方订阅体验；
 5. 活动福利：必须附地区、产品线、资格、有效期、截止时间和核验日期。
 
-官方订阅通常能提供最完整的兼容性、功能联动、更新与支持，因此适合作为新手教程的默认路径。但“官方订阅一定在所有任务上效果最好”仍需通过相同任务实测，不能只凭品牌下结论。
+官方订阅通常能提供最完整的兼容性、功能联动、更新与支持，因此适合作为新手教程的默认路径。但前提是官方服务在读者所在地区可用、账号状态稳定且支付与申诉渠道明确。“官方订阅一定在所有任务上效果最好”仍需通过相同任务实测，不能只凭品牌下结论。
 
 ## 当前比较快照
 
 | 产品与范围 | 官方付费主线 | 免费或新人入口 | 模型与 API 自主性 | 当前写作判断 |
 |---|---|---|---|---|
 | Codex 桌面版 | 随 ChatGPT Free、Go、Plus、Pro 等方案提供；Go $8/月、Plus $20/月、Pro $100/月起 | Free 可体验轻量任务；未核实到当前个人学生赠送 | 套餐内用量、追加 Credits、API Key 按 Token 计费是三套口径 | 新手优先讲官方 ChatGPT 订阅；API Key 不包含部分云端功能 |
-| Claude 桌面版 | Free；Pro 年付折合 $17/月或月付 $20；Max $100/月起 | Free 可用；未核实到面向所有个人学生的通用折扣 | Pro 包含 Claude Code、Cowork、Design、Science；API 计费另算 | “Claude for Education”主要是院校合作，不能写成人人可领的学生福利 |
+| Claude 桌面版 | Free；Pro 年付折合 $17/月或月付 $20；Max $100/月起 | Free 可用；未核实到面向所有个人学生的通用折扣 | Pro 包含 Claude Code、Cowork、Design、Science；API 计费另算 | 作者账号已被封，原因尚未核实；账号与地区稳定性必须先于付费建议说明 |
 | Qoder 中国版 | 专业版 ¥59/月、2,000 Credits；高级版 ¥169/月、6,000 Credits；旗舰版 ¥559/月、20,000 Credits，当前显示敬请期待 | 体验版 2 周、300 Credits；个人资源包 ¥40/1,000 Credits，有效期 1 个月 | 个人专业版支持阿里云百炼、智谱、Kimi、MiniMax 的 API Key；由供应商计费，不消耗 Qoder Credits | 不使用国际站美元价格；旧学生活动属于 QoderWork CN 且已截止 |
 | TraeWork 中国版 | Lite、Pro、Pro+、Ultra；连续包月分别为 ¥45、¥89、¥219、¥629，Lite/Pro 有新客首月价 | Free 500 积分/月；价格页当前显示新人赠送 4,500 积分，活动规则与到账条件发布前复核 | 官方文档明确 Seed 模型折扣，但尚未核实 TraeWork 桌面版的 BYOK 或通用自定义模型入口 | 先按官方积分体系介绍，不把 TraeCode 的模型配置自动迁移到 TraeWork |
 | ZCode 中国版 | 可在应用内连接 BigModel 的 GLM Coding Plan；新版套餐按积分并设 5 小时与每周额度 | 首次使用 5 天：GLM-5.2 300 万 Token/天，GLM-5-Turbo 200 万 Token/天 | 支持 BigModel、兼容 Anthropic/OpenAI 协议的 API Key、自定义供应商及团队通道 | 自主性较高；官方推荐路径仍是 BigModel 中国区账号与 GLM Coding Plan |
@@ -50,6 +50,8 @@
 - Pro 年付 $200，折合 $17/月；月付 $20。Pro 页面明确包含 Claude Code、Claude Cowork、Claude Design 和 Claude Science。
 - Max 从 $100/月起，可选相对 Pro 的 5 倍或 20 倍用量。
 - Anthropic 的 Claude for Education 是面向高等教育机构的方案；官方公告提到校园级接入、Campus Ambassadors 与学生项目 API Credits 计划，但没有证明所有个人学生都能直接领取 Pro 或固定 Credits。
+- 作者当前 Claude 账号已被封，桌面端只能核对登录前欢迎页。现阶段尚无充分证据确认具体触发原因，因此正文只能写成个人经历与风险提示，不能概括为所有用户都容易被封。
+- 面向中国大陆新手时，应把地区可用性、注册与支付条件、账号风控、申诉渠道和订阅中断损失列在功能介绍之前。教程不提供规避地区限制或绕过平台风控的方法。
 
 官方来源：[Claude Pricing](https://claude.com/pricing)、[Introducing Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education)
 
@@ -131,4 +133,5 @@ CC Switch 是第三方开源桌面配置管理工具，用于统一管理 Claude
 - [ ] BYOK 支持的供应商、协议和计费方已核对；
 - [ ] 截图显示账号地区、客户端版本和核验日期，并完成脱敏；
 - [ ] 第三方工具没有被描述成官方通道；
+- [ ] 账号地区、登录状态、服务可用性、风控经历和申诉路径已区分官方事实与作者经历；
 - [ ] 所有易变信息都有“最后核验日期”和官方链接。

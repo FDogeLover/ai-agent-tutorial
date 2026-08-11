@@ -24,7 +24,7 @@ Qoder、TraeWork 和 ZCode 只使用中国版账号、客户端和资料。Codex
 
 ## 3. 输入材料包
 
-正式测试前制作一份冻结版本的材料包，并为七款产品各复制一份。材料内容相同、文件名相同，不包含某个 Agent 专属的初始化文件。
+仓库已建立可直接复制的 `benchmark/v1/input` 材料包。正式测试时为七款产品各复制一份，保持内容和文件名相同，不包含某个 Agent 专属的初始化文件。
 
 建议包含：
 
@@ -33,10 +33,10 @@ benchmark-input/
 ├─ 00-project-brief.md        # 项目目标、读者和边界
 ├─ 01-notes.md                # 若干零散教程笔记
 ├─ 02-reader-feedback.md      # 模拟或真实的新手反馈
-├─ 03-product-facts.xlsx      # 简单的产品与订阅信息表
+├─ 03-product-facts.csv       # 简单的产品与本机核对信息表
 ├─ images/
-│  ├─ screenshot-01.png
-│  └─ screenshot-02.png
+│  ├─ interface-map.svg
+│  └─ task-flow.svg
 └─ OUTPUT-REQUIREMENTS.md     # 交付文件和验收要求
 ```
 
