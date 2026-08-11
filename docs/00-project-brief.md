@@ -54,7 +54,7 @@ Agent 能执行任务，但不等于可以放弃监督。教程需要同时讲�
 
 教程的独特性来自两类内容：
 
-1. 作者对 Codex、Claude、ZCode 中国版、TraeWork 中国版、Work Buddy、Qoder 中国版、Hermes 的真实使用观察；
+1. 作者对 Codex、Claude、ZCode 中国版、TraeWork 中国版、WorkBuddy、Qoder 中国版、Hermes Desktop 的真实使用观察；
 2. 作者从项目搭建中沉淀出的 Skills、Harness 架构、失败案例和改进过程。
 
 “真实经验”不只展示成功结果，还应包含最初做法、遇到的问题、判断过程、修改方案和最终可复用原则。

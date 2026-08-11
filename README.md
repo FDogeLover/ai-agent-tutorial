@@ -14,7 +14,7 @@
 - 试用几个产品后，仍然没有形成稳定、可复用的工作方式；
 - 想进一步使用 Skills、规则、记忆和多 Agent，却缺少清晰的工程框架。
 
-本教程将以真实任务为主线，结合 Codex、Claude、ZCode 中国版、TraeWork 中国版、Work Buddy、Qoder 中国版和 Hermes 的使用经验，从“第一次使用”逐步走向“搭建自己的 Agent 工作系统”。
+本教程将以真实任务为主线，结合 Codex、Claude、ZCode 中国版、TraeWork 中国版、WorkBuddy、Qoder 中国版和 Hermes Desktop 的使用经验，从“第一次使用”逐步走向“搭建自己的 Agent 工作系统”。
 
 ## 目标读者
 
@@ -50,6 +50,7 @@
 - [内容策略与体验评测方案](docs/05-content-strategy.md)
 - [七款 Agent 的分类方法](docs/06-agent-taxonomy.md)
 - [订阅、Credits 与新人福利调研](docs/07-subscriptions-credits-and-benefits.md)
+- [七款 Agent 共同基准任务](docs/08-common-benchmark-task.md)
 - [章节草稿目录](chapters/README.md)
 - [图片与视觉素材约定](assets/README.md)
 - [章节写作模板](templates/chapter-template.md)
