@@ -10,3 +10,6 @@
 
 每章从 `templates/chapter-template.md` 复制开始。尚未开始写作的章节不必提前创建空文件。
 
+第 5 章的七款产品需要共享结构并进行横向比较，因此已提前建立页面骨架：
+
+- [七款 Agent 的桌面体验](05-agent-experiences/README.md)

@@ -14,7 +14,7 @@
 - 试用几个产品后，仍然没有形成稳定、可复用的工作方式；
 - 想进一步使用 Skills、规则、记忆和多 Agent，却缺少清晰的工程框架。
 
-本教程将以真实任务为主线，结合 Codex、Claude、Z Code、TreeWork、Work Buddy、Qoder 和 Hermes 的使用经验，从“第一次使用”逐步走向“搭建自己的 Agent 工作系统”。
+本教程将以真实任务为主线，结合 Codex、Claude、ZCode 中国版、TraeWork 中国版、WorkBuddy、Qoder 中国版和 Hermes Desktop 的使用经验，从“第一次使用”逐步走向“搭建自己的 Agent 工作系统”。
 
 ## 目标读者
 
@@ -49,12 +49,17 @@
 - [内容开发清单](docs/04-content-backlog.md)
 - [内容策略与体验评测方案](docs/05-content-strategy.md)
 - [七款 Agent 的分类方法](docs/06-agent-taxonomy.md)
+- [订阅、Credits 与新人福利调研](docs/07-subscriptions-credits-and-benefits.md)
+- [七款 Agent 共同基准任务](docs/08-common-benchmark-task.md)
+- [本机桌面客户端与界面核对](docs/09-local-desktop-ui-audit.md)
+- [七款桌面 Agent 横向选择矩阵](docs/10-selection-matrix.md)
 - [章节草稿目录](chapters/README.md)
 - [图片与视觉素材约定](assets/README.md)
 - [章节写作模板](templates/chapter-template.md)
 - [Agent 体验模板](templates/agent-review-template.md)
 - [案例写作模板](templates/case-study-template.md)
+- [共同基准材料包 v1](benchmark/v1/README.md)
 
 ## 当前状态
 
-项目处于“框架设计”阶段。工作标题、章节数量和案例顺序都可以随着实际写作调整。
+项目已完成主体框架、七款产品页面骨架和共同基准材料包，当前进入“实际体验与证据采集”阶段。产品结论、截图和案例仍会随着统一测试继续补充，草稿 PR 暂不合并。
