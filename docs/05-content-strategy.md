@@ -28,8 +28,8 @@
 对新手可以先用四组建立直觉：
 
 1. 海外闭源托管型综合 Agent：Claude、Codex；
-2. 国内综合型 Agent：TreeWork、Work Buddy；
-3. 代码优先型 Agent：Qoder、Z Code；
+2. 国内综合型 Agent：TraeWork 中国版、Work Buddy；
+3. 代码优先型 Agent：Qoder 中国版、ZCode 中国版；
 4. 开源自主型 Agent：Hermes。
 
 这四组适合组织文章，但不应作为唯一比较轴。实际选型还要叠加任务方向、开放程度、后台运行方式、自主程度和使用门槛等标签。
