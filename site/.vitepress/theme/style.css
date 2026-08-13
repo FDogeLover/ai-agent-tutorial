@@ -1,4 +1,43 @@
 /* AI Agent 零基础教程 —— 清爽学术蓝主题 */
+
+/* 自托管字体：思源黑体（正文/标题）+ Sekuya（首页大标题）+ JetBrains Mono（代码）
+   来源：Google Fonts（OFL 许可）；思源黑体已子集化为 GB2312 常用字集 */
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/noto-sans-sc-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/noto-sans-sc-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Sekuya';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/sekuya.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono-600.woff2') format('woff2');
+}
+
 :root {
   /* 品牌主色：清爽学术蓝 */
   --vp-c-brand-1: #2563eb;
@@ -9,9 +48,11 @@
   /* 链接 */
   --vp-c-link: #2563eb;
 
-  /* 正文排版 */
-  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
-    'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* 字体分层：正文（思源黑体）/ 标题（思源黑体加粗）/ 代码（JetBrains Mono） */
+  --vp-font-family-base: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  --vp-font-family-heading: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   --vp-font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Consolas,
     'Liberation Mono', Menlo, monospace;
 
@@ -21,6 +62,12 @@
   /* 代码块 */
   --vp-code-block-bg: #0f172a;
   --vp-code-color: #1e40af;
+}
+
+/* 首页大标题「AI Agent 零基础教程」：Sekuya 手写展示体（拉丁）+ 思源黑体（中文回退） */
+.home-hero .home-title {
+  font-family: 'Sekuya', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  letter-spacing: 0.01em;
 }
 
 /* 深色模式微调 */
