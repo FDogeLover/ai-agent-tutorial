@@ -25,29 +25,29 @@ function buildSrcMap() {
     '19-work-case', '20-life-case', '21-content-research-case', '22-software-project-case',
     '23-30day-plan',
   ]
-  for (const f of guide) map.set(`chapters/${f}.md`, `/guide/${f}`)
+  for (const f of guide) map.set(`chapters/${f}.md`, `/guide/${f}.html`)
   // 第 5 章七款产品
-  map.set('chapters/05-agent-experiences/01-claude.md', '/guide/05-claude')
-  map.set('chapters/05-agent-experiences/02-codex.md', '/guide/05-codex')
-  map.set('chapters/05-agent-experiences/03-traework-cn.md', '/guide/05-traework')
-  map.set('chapters/05-agent-experiences/04-workbuddy.md', '/guide/05-workbuddy')
-  map.set('chapters/05-agent-experiences/05-qoder-cn.md', '/guide/05-qoder')
-  map.set('chapters/05-agent-experiences/06-zcode-cn.md', '/guide/05-zcode')
-  map.set('chapters/05-agent-experiences/07-hermes-desktop.md', '/guide/05-hermes')
-  map.set('chapters/05-agent-experiences/README.md', '/selection/05-overview')
+  map.set('chapters/05-agent-experiences/01-claude.md', '/guide/05-claude.html')
+  map.set('chapters/05-agent-experiences/02-codex.md', '/guide/05-codex.html')
+  map.set('chapters/05-agent-experiences/03-traework-cn.md', '/guide/05-traework.html')
+  map.set('chapters/05-agent-experiences/04-workbuddy.md', '/guide/05-workbuddy.html')
+  map.set('chapters/05-agent-experiences/05-qoder-cn.md', '/guide/05-qoder.html')
+  map.set('chapters/05-agent-experiences/06-zcode-cn.md', '/guide/05-zcode.html')
+  map.set('chapters/05-agent-experiences/07-hermes-desktop.md', '/guide/05-hermes.html')
+  map.set('chapters/05-agent-experiences/README.md', '/selection/05-overview.html')
   // 第 6 章
-  map.set('chapters/06-selection/README.md', '/selection/README')
-  map.set('chapters/06-selection/01-comparison-table.md', '/selection/01-comparison-table')
-  map.set('chapters/06-selection/02-decision-path.md', '/selection/02-decision-path')
-  map.set('chapters/06-selection/03-personal-conclusion.md', '/selection/03-personal-conclusion')
+  map.set('chapters/06-selection/README.md', '/selection/README.html')
+  map.set('chapters/06-selection/01-comparison-table.md', '/selection/01-comparison-table.html')
+  map.set('chapters/06-selection/02-decision-path.md', '/selection/02-decision-path.html')
+  map.set('chapters/06-selection/03-personal-conclusion.md', '/selection/03-personal-conclusion.html')
   // 附录
-  map.set('chapters/appendix/00-glossary.md', '/appendix/00-glossary')
-  map.set('chapters/appendix/01-task-brief-template.md', '/appendix/01-task-brief-template')
-  map.set('chapters/appendix/02-permission-checklist.md', '/appendix/02-permission-checklist')
-  map.set('chapters/appendix/03-agent-log-template.md', '/appendix/03-agent-log-template')
-  map.set('chapters/appendix/04-skill-checklist.md', '/appendix/04-skill-checklist')
-  map.set('chapters/appendix/05-harness-canvas.md', '/appendix/05-harness-canvas')
-  map.set('chapters/appendix/06-troubleshooting.md', '/appendix/06-troubleshooting')
+  map.set('chapters/appendix/00-glossary.md', '/appendix/00-glossary.html')
+  map.set('chapters/appendix/01-task-brief-template.md', '/appendix/01-task-brief-template.html')
+  map.set('chapters/appendix/02-permission-checklist.md', '/appendix/02-permission-checklist.html')
+  map.set('chapters/appendix/03-agent-log-template.md', '/appendix/03-agent-log-template.html')
+  map.set('chapters/appendix/04-skill-checklist.md', '/appendix/04-skill-checklist.html')
+  map.set('chapters/appendix/05-harness-canvas.md', '/appendix/05-harness-canvas.html')
+  map.set('chapters/appendix/06-troubleshooting.md', '/appendix/06-troubleshooting.html')
   return map
 }
 

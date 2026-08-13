@@ -11,7 +11,8 @@ export default defineConfig({
   description: '从选择、使用到管理 AI Agent 的实践教程：认识 Agent、选对工具、完成任务、沉淀工作流、搭建你的系统。',
   lang: 'zh-CN',
   base,
-  cleanUrls: true,
+  srcDir: 'src',
+  cleanUrls: false,
   lastUpdated: true,
   ignoreDeadLinks: true,
 

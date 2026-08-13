@@ -12,35 +12,35 @@ lastUpdated: false
     每章都让你带走一件可复用的成果：任务卡、检查清单、模板、Skill 或一张系统草图。
   </p>
   <div class="home-actions">
-    <a class="home-btn primary" href="/guide/00-preface">开始阅读 · 序章</a>
-    <a class="home-btn" href="/selection/README">先看七款产品怎么选</a>
+    <a class="home-btn primary" href="/guide/00-preface.html">开始阅读 · 序章</a>
+    <a class="home-btn" href="/selection/README.html">先看七款产品怎么选</a>
   </div>
 </div>
 
 <div class="home-section">
   <h2>六篇主线 · 从认识到系统化</h2>
   <div class="home-grid">
-    <a class="home-card" href="/guide/01-what-is-an-agent">
+    <a class="home-card" href="/guide/01-what-is-an-agent.html">
       <strong>第一篇 · 认识</strong>
       <span>Agent 到底是什么、能做什么不能做什么、人与它怎样分工。</span>
     </a>
-    <a class="home-card" href="/selection/README">
+    <a class="home-card" href="/selection/README.html">
       <strong>第二篇 · 选型</strong>
       <span>不背参数先看维度；七款产品实测体验与横向选择。</span>
     </a>
-    <a class="home-card" href="/guide/07-task-brief">
+    <a class="home-card" href="/guide/07-task-brief.html">
       <strong>第三篇 · 任务</strong>
       <span>任务卡、安全边界、过程跟进、验收复盘，跑通第一个闭环。</span>
     </a>
-    <a class="home-card" href="/guide/11-context-management">
+    <a class="home-card" href="/guide/11-context-management.html">
       <strong>第四篇 · 工作流</strong>
       <span>上下文、模板、Skill、规则记忆，把经验变成资产。</span>
     </a>
-    <a class="home-card" href="/guide/15-what-is-harness">
+    <a class="home-card" href="/guide/15-what-is-harness.html">
       <strong>第五篇 · Harness</strong>
       <span>理解并搭建你的工作系统：六层架构、多 Agent 与可靠性。</span>
     </a>
-    <a class="home-card" href="/guide/19-work-case">
+    <a class="home-card" href="/guide/19-work-case.html">
       <strong>第六篇 · 案例</strong>
       <span>工作、生活、创作、项目四类真实案例，照着做即可。</span>
     </a>
@@ -50,14 +50,14 @@ lastUpdated: false
 <div class="home-section">
   <h2>七款产品实测（2026-08，同一基准任务）</h2>
   <div class="home-grid">
-    <a class="home-card small" href="/guide/05-claude"><strong>Claude 桌面版</strong><span>账号可用性阻断案例</span></a>
-    <a class="home-card small" href="/guide/05-codex"><strong>Codex</strong><span>综合交付一致性最佳</span></a>
-    <a class="home-card small" href="/guide/05-traework"><strong>TraeWork 中国版</strong><span>新手最省心</span></a>
-    <a class="home-card small" href="/guide/05-workbuddy"><strong>WorkBuddy</strong><span>0 介入 + diff 可见</span></a>
-    <a class="home-card small" href="/guide/05-qoder"><strong>Qoder 中国版</strong><span>最快最省（注意边界）</span></a>
-    <a class="home-card small" href="/guide/05-zcode"><strong>ZCode 中国版</strong><span>变更透明最强</span></a>
-    <a class="home-card small" href="/guide/05-hermes"><strong>Hermes Desktop</strong><span>高自主 · 自动恢复实证</span></a>
-    <a class="home-card small" href="/selection/01-comparison-table"><strong>横向选择表</strong><span>六维评分对照</span></a>
+    <a class="home-card small" href="/guide/05-claude.html"><strong>Claude 桌面版</strong><span>账号可用性阻断案例</span></a>
+    <a class="home-card small" href="/guide/05-codex.html"><strong>Codex</strong><span>综合交付一致性最佳</span></a>
+    <a class="home-card small" href="/guide/05-traework.html"><strong>TraeWork 中国版</strong><span>新手最省心</span></a>
+    <a class="home-card small" href="/guide/05-workbuddy.html"><strong>WorkBuddy</strong><span>0 介入 + diff 可见</span></a>
+    <a class="home-card small" href="/guide/05-qoder.html"><strong>Qoder 中国版</strong><span>最快最省（注意边界）</span></a>
+    <a class="home-card small" href="/guide/05-zcode.html"><strong>ZCode 中国版</strong><span>变更透明最强</span></a>
+    <a class="home-card small" href="/guide/05-hermes.html"><strong>Hermes Desktop</strong><span>高自主 · 自动恢复实证</span></a>
+    <a class="home-card small" href="/selection/01-comparison-table.html"><strong>横向选择表</strong><span>六维评分对照</span></a>
   </div>
 </div>
 

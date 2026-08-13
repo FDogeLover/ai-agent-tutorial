@@ -3,6 +3,7 @@
 
 # 站点构建产物与依赖（由 scripts/build-pages.mjs 生成、npm install 安装）
 site/node_modules/
+site/.vitepress/dist/
 site/src/.vitepress/dist/
 site/src/guide/
 site/src/selection/
