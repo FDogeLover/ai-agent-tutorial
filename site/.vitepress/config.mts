@@ -30,9 +30,11 @@ export default defineConfig({
     logo: '/favicon.svg',
     nav: [
       { text: '开始阅读', link: '/guide/00-preface' },
-      { text: '选择 Agent', link: '/selection/README' },
+      { text: '认识 Agent', link: '/guide/01-what-is-an-agent' },
+      { text: '选择 Agent', link: '/selection/05-overview' },
       { text: '完成任务', link: '/guide/07-task-brief' },
-      { text: '进阶与系统', link: '/guide/13-skills' },
+      { text: '稳定工作流', link: '/guide/11-context-management' },
+      { text: 'Harness', link: '/guide/15-what-is-harness' },
       { text: '案例', link: '/guide/19-work-case' },
       { text: '附录', link: '/appendix/00-glossary' },
     ],
@@ -65,6 +67,13 @@ export default defineConfig({
           items: [
             { text: '第 4 章 选择维度', link: '/guide/04-how-to-choose' },
             { text: '第 5 章 七款产品体验', link: '/selection/05-overview' },
+            { text: 'Claude 桌面版', link: '/guide/05-claude' },
+            { text: 'Codex 桌面版', link: '/guide/05-codex' },
+            { text: 'TraeWork 中国版', link: '/guide/05-traework' },
+            { text: 'WorkBuddy', link: '/guide/05-workbuddy' },
+            { text: 'Qoder 中国版', link: '/guide/05-qoder' },
+            { text: 'ZCode 中国版', link: '/guide/05-zcode' },
+            { text: 'Hermes Desktop', link: '/guide/05-hermes' },
             { text: '第 6 章 横向比较与选型', link: '/selection/README' },
           ],
         },
@@ -131,6 +140,7 @@ export default defineConfig({
           collapsed: true,
           
           items: [
+            { text: '第 6 章首页导读', link: '/selection/README' },
             { text: '横向选择表', link: '/selection/01-comparison-table' },
             { text: '新手决策路径', link: '/selection/02-decision-path' },
             { text: '个人选型结论', link: '/selection/03-personal-conclusion' },
