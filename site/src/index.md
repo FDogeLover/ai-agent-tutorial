@@ -30,7 +30,7 @@ lastUpdated: false
     </a>
     <a class="home-card" href="/guide/07-task-brief.html">
       <strong>第三篇 · 任务</strong>
-      <span>任务卡、安全边界、过程跟进、验收复盘，跑通第一个闭环。</span>
+      <span>任务卡、安全边界、过程跟进、验收复盘，完整走通一次任务。</span>
     </a>
     <a class="home-card" href="/guide/11-context-management.html">
       <strong>第四篇 · 工作流</strong>
