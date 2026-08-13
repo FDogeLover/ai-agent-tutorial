@@ -36,10 +36,16 @@ export default defineConfig({
       '/guide/': [
         {
           text: '序章',
+          collapsible: true,
+          collapsed: true,
+          
           items: [{ text: '第 0 章 我为什么写这套教程', link: '/guide/00-preface' }],
         },
         {
           text: '第一篇 认识你的新搭档',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '第 1 章 AI Agent 到底是什么', link: '/guide/01-what-is-an-agent' },
             { text: '第 2 章 能做什么，不能做什么', link: '/guide/02-capabilities-and-limits' },
@@ -48,6 +54,9 @@ export default defineConfig({
         },
         {
           text: '第二篇 选择适合自己的 Agent',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '第 4 章 选择维度', link: '/guide/04-how-to-choose' },
             { text: '第 5 章 七款产品体验', link: '/selection/05-overview' },
@@ -56,6 +65,9 @@ export default defineConfig({
         },
         {
           text: '第三篇 完成第一个任务',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '第 7 章 清晰任务卡', link: '/guide/07-task-brief' },
             { text: '第 8 章 安全边界', link: '/guide/08-safe-boundaries' },
@@ -65,6 +77,9 @@ export default defineConfig({
         },
         {
           text: '第四篇 稳定工作流',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '第 11 章 管理上下文', link: '/guide/11-context-management' },
             { text: '第 12 章 模板库', link: '/guide/12-template-library' },
@@ -74,6 +89,9 @@ export default defineConfig({
         },
         {
           text: '第五篇 搭建 Harness',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '第 15 章 Harness 是什么', link: '/guide/15-what-is-harness' },
             { text: '第 16 章 Harness 架构', link: '/guide/16-harness-architecture' },
@@ -83,6 +101,9 @@ export default defineConfig({
         },
         {
           text: '第六篇 真实案例',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '第 19 章 工作事务案例', link: '/guide/19-work-case' },
             { text: '第 20 章 日常生活案例', link: '/guide/20-life-case' },
@@ -92,12 +113,18 @@ export default defineConfig({
         },
         {
           text: '终章',
+          collapsible: true,
+          collapsed: true,
+          
           items: [{ text: '第 23 章 30 天实践计划', link: '/guide/23-30day-plan' }],
         },
       ],
       '/selection/': [
         {
           text: '选择 Agent',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '横向选择表', link: '/selection/01-comparison-table' },
             { text: '新手决策路径', link: '/selection/02-decision-path' },
@@ -106,6 +133,9 @@ export default defineConfig({
         },
         {
           text: '七款产品体验（第 5 章）',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: '总览与测试条件', link: '/selection/05-overview' },
             { text: 'Claude 桌面版', link: '/guide/05-claude' },
@@ -121,6 +151,9 @@ export default defineConfig({
       '/appendix/': [
         {
           text: '附录',
+          collapsible: true,
+          collapsed: true,
+          
           items: [
             { text: 'A 核心术语表', link: '/appendix/00-glossary' },
             { text: 'B 任务卡模板', link: '/appendix/01-task-brief-template' },
