@@ -31,7 +31,7 @@ export default defineConfig({
     nav: [
       { text: '开始阅读', link: '/guide/00-preface' },
       { text: '认识 Agent', link: '/guide/01-what-is-an-agent' },
-      { text: '选择 Agent', link: '/selection/05-overview' },
+      { text: '选择 Agent', link: '/guide/04-how-to-choose' },
       { text: '完成任务', link: '/guide/07-task-brief' },
       { text: '稳定工作流', link: '/guide/11-context-management' },
       { text: 'Harness', link: '/guide/15-what-is-harness' },
