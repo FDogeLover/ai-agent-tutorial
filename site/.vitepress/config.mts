@@ -50,7 +50,7 @@ export default defineConfig({
           text: '第二篇 选择适合自己的 Agent',
           items: [
             { text: '第 4 章 选择维度', link: '/guide/04-how-to-choose' },
-            { text: '第 5 章 七款产品体验', link: '/selection/README' },
+            { text: '第 5 章 七款产品体验', link: '/selection/05-overview' },
             { text: '第 6 章 横向比较与选型', link: '/selection/README' },
           ],
         },
