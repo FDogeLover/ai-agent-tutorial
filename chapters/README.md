@@ -52,12 +52,21 @@
 
 - [第 23 章 一份 30 天实践计划](23-30day-plan.md)
 
+### 附录（A–G）
+
+- [A 核心术语表](appendix/00-glossary.md)
+- [B 任务卡模板](appendix/01-task-brief-template.md)
+- [C 权限分级与安全检查清单](appendix/02-permission-checklist.md)
+- [D Agent 体验记录表](appendix/03-agent-log-template.md)
+- [E Skill 设计检查表](appendix/04-skill-checklist.md)
+- [F Harness 设计画布](appendix/05-harness-canvas.md)
+- [G 常见失败排查表](appendix/06-troubleshooting.md)
+
 ## 写作约定
 
 每章遵循 `templates/chapter-template.md` 结构（本章解决什么问题 → 真实场景 → 结论 → 概念 → 跟着做 → 示例 → 常见错误 → 安全提醒 → 练习 → 成果 → 小结），并带网站化元数据头。案例章遵循 `templates/case-study-template.md`。写作纪律见 `../docs/03-editorial-guide.md`；易变信息（价格/版本）以 `../docs/07-subscriptions-credits-and-benefits.md` 为准并标注核验日期。
 
 ## 后续事项
 
-- 附录（术语表、任务卡模板、权限检查清单、体验记录表、Skill 检查表、Harness 画布、失败排查表）尚未单独成文，可从各章「必要概念/成果」汇总而来（`../docs/04-content-backlog.md` 第一阶段项）；
 - 第 5 章七款产品页与第 6 章已基于 2026-08-12 实测，代码优势任务（benchmark v2）完成后需修订；
 - 章节正文为初稿，正式发布前建议零基础读者试读并复核全部链接与易变信息。
