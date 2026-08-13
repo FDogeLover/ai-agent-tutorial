@@ -179,6 +179,20 @@ lastUpdated: true
 | 概览详情.png | 预览/代码双视图 | 同上 | 是 | 概览页文档预览 |
 | 审查详情.png | Git 暂存/丢弃/提交 | 同上 | 是 | 审查视图 |
 
+## 界面截图
+
+![整体界面：Quest 任务卡与交付报告表](/screenshots/qoder-main.png)
+
+*图 1：整体界面——交付报告与操作统计（实测截图，已脱敏）*
+
+![概览详情：预览/代码双视图](/screenshots/qoder-overview.png)
+
+*图 2：概览页——文档预览与代码双视图（实测截图，已脱敏）*
+
+![审查详情：Git 暂存/丢弃/提交](/screenshots/qoder-review.png)
+
+*图 3：审查视图——变更暂存/丢弃/提交（实测截图，已脱敏）*
+
 ## 附录 B：信息来源
 
 - [Qoder CN Pricing](https://qoder.cn/pricing)、[Qoder CN Credits](https://docs.qoder.cn/product-overview/credits)、[Qoder CN 自定义模型](https://docs.qoder.cn/user-guide/custom-model)、[已截止的 QoderWork CN 活动规则](https://docs.qoder.cn/product-overview/qoderwork-cn-new-user-credits-claim-and-referral-reward-program-terms-and-conditions)（访问日期 2026-08-11）

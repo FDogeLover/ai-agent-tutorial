@@ -180,6 +180,20 @@ lastUpdated: true
 | 预览详情.png | Markdown 成品渲染 | 同上 | 是 | 预览页 |
 | 差异详情.png | 预览/源码/差异/编辑四视图 | 同上 | 是 | 差异四视图 |
 
+## 界面截图
+
+![整体界面：三栏工作台与会话](/screenshots/hermes-main.png)
+
+*图 1：整体界面——三栏项目工作台（实测截图，Provider 密钥已遮挡）*
+
+![预览详情：Markdown 成品渲染](/screenshots/hermes-preview.png)
+
+*图 2：预览页——Markdown 成品渲染（实测截图，已脱敏）*
+
+![差异详情：预览/源码/差异/编辑四视图](/screenshots/hermes-diff.png)
+
+*图 3：差异视图——预览/源码/差异/编辑四视图（实测截图，已脱敏）*
+
 ## 附录 B：信息来源
 
 - [Hermes Agent](https://hermes-agent.nousresearch.com/)、[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)（访问日期 2026-08-11）

@@ -173,6 +173,20 @@
 | 概览详情.png | 任务进程与产物渲染 | 同上 | 是 | 概览与产物预览 |
 | 变更详情.png | +647/-0 与逐文件 diff | 同上 | 是 | 变更面板与 diff |
 
+## 界面截图
+
+![整体界面：三栏工作台、导航与任务总结](/screenshots/workbuddy-main.png)
+
+*图 1：整体界面——三栏式综合工作台（实测截图，已脱敏）*
+
+![概览详情：任务进程与产物渲染](/screenshots/workbuddy-overview.png)
+
+*图 2：概览页——任务进程与产物预览（实测截图，已脱敏）*
+
+![变更详情：+647/-0 与逐文件 diff](/screenshots/workbuddy-diff.png)
+
+*图 3：变更面板——+647/-0 与逐文件 diff（实测截图，已脱敏）*
+
 ## 附录 B：信息来源
 
 - [Tencent WorkBuddy 简介](https://www.workbuddy.ai/docs/zh/workbuddy/Overview)、[订阅政策](https://www.workbuddy.ai/docs/zh/workbuddy/Subscription)、[定价](https://www.workbuddy.ai/docs/zh/workbuddy/pricing)、[积分说明](https://www.workbuddy.ai/docs/zh/workbuddy/credits)、[模型配置](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Model)（访问日期 2026-08-11）

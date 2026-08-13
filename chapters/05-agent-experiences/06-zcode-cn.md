@@ -172,6 +172,16 @@
 | 整体界面.png | 任务汇报与 IDE 布局 | 3.7.6 | 是 | 任务汇报与文件树 |
 | 审查详情.png | 逐文件增删统计 | 同上 | 是 | 审查视图变更清单 |
 
+## 界面截图
+
+![整体界面：任务汇报与 IDE 布局](/screenshots/zcode-main.png)
+
+*图 1：整体界面——任务汇报与文件树（实测截图，已脱敏）*
+
+![审查详情：逐文件增删统计](/screenshots/zcode-review.png)
+
+*图 2：审查视图——逐文件增删统计（实测截图，已脱敏）*
+
 ## 附录 B：信息来源
 
 - [ZCode 新手与权益](https://zcode.z.ai/cn/docs/welcome)、[ZCode 连接模型与套餐](https://zcode.z.ai/cn/docs/configuration)（访问日期 2026-08-11）

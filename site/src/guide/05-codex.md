@@ -180,6 +180,20 @@ lastUpdated: true
 | 概览详情.png | 成品渲染/源码切换与文件列表 | 同上 | 是 | 概览页成品预览 |
 | 审阅详情.png | 分支对比、变更统计与提交推送 | 同上 | 是 | 审阅视图 diff |
 
+## 界面截图
+
+![整体界面：三栏工作台与任务入口](/screenshots/codex-main.png)
+
+*图 1：整体界面——任务驱动的桌面工作台（实测截图，已脱敏）*
+
+![概览详情：成品渲染/源码切换与文件列表](/screenshots/codex-overview.png)
+
+*图 2：概览页——成品预览与源码切换（实测截图，已脱敏）*
+
+![审阅详情：分支对比、变更统计与提交推送](/screenshots/codex-review.png)
+
+*图 3：审阅视图——逐文件 diff 与提交推送（实测截图，已脱敏）*
+
 ## 附录 B：信息来源
 
 - [Codex Pricing](https://learn.chatgpt.com/docs/pricing)（访问日期 2026-08-11）
