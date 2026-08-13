@@ -10,6 +10,8 @@
 
 完整原则见 `docs/08-common-benchmark-task.md`。
 
+实际运行记录存放在 `research/runs/`，每款产品和每一轮测试使用独立目录。
+
 ## 当前版本
 
 - 版本：v1；

@@ -59,6 +59,7 @@
 - [Agent 体验模板](templates/agent-review-template.md)
 - [案例写作模板](templates/case-study-template.md)
 - [共同基准材料包 v1](benchmark/v1/README.md)
+- [实际评测运行记录](research/runs/README.md)
 
 ## 当前状态
 
