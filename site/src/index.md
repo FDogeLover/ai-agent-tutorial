@@ -62,21 +62,30 @@ lastUpdated: false
 </div>
 
 <div class="home-section">
-  <h2>三条学习路径</h2>
-  <div class="home-grid three">
+  <h2>学习路径（路线 A–E，正文「路线 X 读者」指这里）</h2>
+  <div class="home-grid paths">
     <div class="home-card plain">
-      <strong>零基础起步</strong>
-      <span>序章 → 第 1–10 章 → 任选一个案例 → 第 23 章。走通一次完整任务。</span>
+      <strong>路线 A · 零基础起步</strong>
+      <span>从未用过 Agent。序章 → 第 1–10 章 → 任选一个案例 → 第 23 章。走通一次完整任务。</span>
     </div>
     <div class="home-card plain">
-      <strong>办公与生活</strong>
-      <span>第 2、4–12 章 → 工作/生活案例 → 第 14、23 章。建立自己的模板与约定。</span>
+      <strong>路线 B · 办公与生活</strong>
+      <span>主要处理办公与生活事务。第 2、4–12 章 → 工作/生活案例 → 第 14、23 章。建立自己的模板与约定。</span>
     </div>
     <div class="home-card plain">
-      <strong>进阶与系统化</strong>
-      <span>第 7–18 章 → 对照失败案例复盘 → 第 23 章。搭建最小 Harness。</span>
+      <strong>路线 C · 用过但不稳定</strong>
+      <span>会用 Agent 但经常翻车。第 2–10 章查漏 → 第 11–18 章建立稳定工作流 → 第 23 章。</span>
+    </div>
+    <div class="home-card plain">
+      <strong>路线 D · 软件项目</strong>
+      <span>想用于软件/代码项目。第 5、7–10 章 → 第 16、22 章案例 → 第 18、23 章。</span>
+    </div>
+    <div class="home-card plain">
+      <strong>路线 E · 自建工作系统</strong>
+      <span>想设计自己的 Agent 系统。第 11–18 章 → 附录 F 画布 → 第 23 章。</span>
     </div>
   </div>
+  <p class="path-note">正文各章「路线 B 读者」「路线 C/D 读者」等指引，均对应上述五条路径；完整版见仓库 <code>docs/02-learning-paths.md</code>。</p>
 </div>
 
 <div class="home-section note">
@@ -139,7 +148,7 @@ lastUpdated: false
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
-.home-grid.three {
+.home-grid.paths {
   grid-template-columns: repeat(3, 1fr);
 }
 .home-card {
@@ -162,6 +171,12 @@ lastUpdated: false
 .home-card span { font-size: 14px; line-height: 1.7; color: var(--vp-c-text-2); }
 .home-card.small strong { font-size: 15px; }
 .home-card.plain { background: transparent; }
+.path-note {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+}
 .home-section.note {
   border: 1px solid var(--vp-c-brand-soft);
   background: var(--vp-c-brand-soft);
@@ -173,6 +188,7 @@ lastUpdated: false
 @media (max-width: 720px) {
   .home-grid { grid-template-columns: 1fr; }
   .home-grid.three { grid-template-columns: 1fr; }
+  .home-grid.paths { grid-template-columns: 1fr; }
   .home-title { font-size: 30px; }
 }
 </style>
