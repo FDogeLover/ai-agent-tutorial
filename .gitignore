@@ -1,10 +1,7 @@
 # 本地工作数据（记忆、临时文件），不进入教程仓库
 .workbuddy/
 
-# 站点构建产物与依赖（由 scripts/build-pages.mjs 生成、npm install 安装）
+# 站点构建产物与依赖（npm install 安装、vitepress build 输出）
 site/node_modules/
 site/.vitepress/dist/
-site/src/.vitepress/dist/
-site/src/guide/
-site/src/selection/
-site/src/appendix/
+site/src/.vitepress/
