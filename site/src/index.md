@@ -13,7 +13,7 @@ lastUpdated: false
   </p>
   <div class="home-actions">
     <a class="home-btn primary" href="/guide/00-preface.html">开始阅读 · 序章</a>
-    <a class="home-btn" href="/selection/README.html">先看七款产品怎么选</a>
+    <a class="home-btn" href="/selection/README.html">看七款产品的选型结果</a>
   </div>
 </div>
 

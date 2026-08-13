@@ -14,7 +14,12 @@ export default defineConfig({
   srcDir: 'src',
   cleanUrls: false,
   lastUpdated: true,
-  ignoreDeadLinks: true,
+  // 构建时校验内部链接；仓库 docs/ 目录不在站内，相关纯文本引用不报错
+  ignoreDeadLinks: [
+    /^\/?docs\//,
+    /^\/?research\//,
+    /^\/?templates\//,
+  ],
 
   head: [
     ['meta', { name: 'theme-color', content: brand }],
