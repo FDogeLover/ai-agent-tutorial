@@ -93,7 +93,7 @@ lastUpdated: true
 | 结果定位与验证 | 四视图（预览/源码/差异/编辑）最灵活 | — |
 | 生态与扩展 | 消息平台、技能与工具、Profiles 入口 | 未逐一实测 |
 
-界面细节见 「界面讲解文档」(docs/11-interface-guides/07-hermes.md)（三张截图：整体界面、预览、差异四视图）。
+界面细节见 「界面讲解文档」（仓库 docs/11-interface-guides/07-hermes.md，站内打不开）（三张截图：整体界面、预览、差异四视图）。
 
 ## 7. 三类实测任务
 
@@ -198,7 +198,7 @@ lastUpdated: true
 
 - [Hermes Agent](https://hermes-agent.nousresearch.com/)、[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)（访问日期 2026-08-11）
 - 运行记录：`research/runs/2026-08-12-hermes-desktop-v0.17.0/run-record.md`
-- 界面讲解：`docs/11-interface-guides/07-hermes.md`
+- 界面讲解：仓库 `docs/11-interface-guides/07-hermes.md`
 
 ## 附录 C：内容性质标记
 

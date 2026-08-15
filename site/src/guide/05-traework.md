@@ -93,7 +93,7 @@ lastUpdated: true
 | 结果定位与验证 | 产物 Markdown 直接渲染，阅读体验接近文档站点 | — |
 | 生态与扩展 | 插件市场、自动化、办公助理、模板库入口可见 | 未逐一实测 |
 
-界面细节见 「界面讲解文档」(docs/11-interface-guides/02-traework-cn.md)。**功能范围如实说明**：概览/预览有截图证据；变更/差异/审阅环节本轮未留存截图，**能力范围标注为「未验证」**，界面中也未见与 WorkBuddy 类似的「文件变更 + diff」面板入口。
+界面细节见 「界面讲解文档」（仓库 docs/11-interface-guides/02-traework-cn.md，站内打不开）。**功能范围如实说明**：概览/预览有截图证据；变更/差异/审阅环节本轮未留存截图，**能力范围标注为「未验证」**，界面中也未见与 WorkBuddy 类似的「文件变更 + diff」面板入口。
 
 ## 7. 三类实测任务
 
@@ -196,7 +196,7 @@ lastUpdated: true
 - [TraeWork 积分计费说明](https://docs.trae.cn/work_credit-based-billing-is-available)（访问日期 2026-08-11）
 - [TraeWork 桌面版快速开始](https://docs.trae.cn/work_trae-work-web-and-desktop-quickstart)（访问日期 2026-08-11）
 - 运行记录：`research/runs/2026-08-12-traework-cn-v0.1.47/run-record.md`
-- 界面讲解：`docs/11-interface-guides/02-traework-cn.md`
+- 界面讲解：仓库 `docs/11-interface-guides/02-traework-cn.md`
 
 ## 附录 C：内容性质标记
 

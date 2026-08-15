@@ -93,7 +93,7 @@ lastUpdated: true
 | 结果定位与验证 | 概览（渲染/源码切换）+ 文件列表 + 完成摘要；自检覆盖 7 份输入 | — |
 | 生态与扩展 | 拉取请求、站点部署、定时任务入口可见 | 未逐一实测 |
 
-界面细节见 「界面讲解文档」(docs/11-interface-guides/06-codex.md)（三张截图：整体界面、概览预览、审阅 diff）。
+界面细节见 「界面讲解文档」（仓库 docs/11-interface-guides/06-codex.md，站内打不开）（三张截图：整体界面、概览预览、审阅 diff）。
 
 ## 7. 三类实测任务
 
@@ -198,7 +198,7 @@ lastUpdated: true
 
 - [Codex Pricing](https://learn.chatgpt.com/docs/pricing)（访问日期 2026-08-11）
 - 运行记录：`research/runs/2026-08-12-codex-desktop-v26.803.10989.0/run-record.md`
-- 界面讲解：`docs/11-interface-guides/06-codex.md`（截图核验 2026-08-13）
+- 界面讲解：仓库 `docs/11-interface-guides/06-codex.md`（截图核验 2026-08-13）
 
 ## 附录 C：内容性质标记
 

@@ -93,7 +93,7 @@ lastUpdated: true
 | 结果定位与验证 | 交付报告表（文件/路径/大小）+ 预览/代码切换 | 自检不可全信（见问题） |
 | 生态与扩展 | 定时任务、Harness、知识中心、插件市场入口 | 未逐一实测 |
 
-界面细节见 「界面讲解文档」(docs/11-interface-guides/03-qoder-cn.md)（三张截图：整体界面/交付报告、概览预览、审查视图）。
+界面细节见 「界面讲解文档」（仓库 docs/11-interface-guides/03-qoder-cn.md，站内打不开）（三张截图：整体界面/交付报告、概览预览、审查视图）。
 
 ## 7. 三类实测任务
 
@@ -197,7 +197,7 @@ lastUpdated: true
 
 - [Qoder CN Pricing](https://qoder.cn/pricing)、[Qoder CN Credits](https://docs.qoder.cn/product-overview/credits)、[Qoder CN 自定义模型](https://docs.qoder.cn/user-guide/custom-model)、[已截止的 QoderWork CN 活动规则](https://docs.qoder.cn/product-overview/qoderwork-cn-new-user-credits-claim-and-referral-reward-program-terms-and-conditions)（访问日期 2026-08-11）
 - 运行记录：`research/runs/2026-08-12-qoder-cn-v1.23.0/run-record.md`
-- 界面讲解：`docs/11-interface-guides/03-qoder-cn.md`
+- 界面讲解：仓库 `docs/11-interface-guides/03-qoder-cn.md`
 
 ## 附录 C：内容性质标记
 

@@ -2,7 +2,7 @@
 
 > 数据日期：2026-08-12（运行记录）；2026-08-13（截图核验）
 >
-> 完整证据卡见 `docs/12-benchmark-scoring.md`；正式矩阵见 `docs/10-selection-matrix.md`
+> 完整证据卡与正式矩阵是仓库内部文档（`docs/12-benchmark-scoring.md`、`docs/10-selection-matrix.md`，站内打不开），本页已汇总其结论
 
 ## 1.1 六维评分总表
 

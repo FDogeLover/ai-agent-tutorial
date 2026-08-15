@@ -2,7 +2,7 @@
 
 > 状态：正文完成（2026-08-13）
 >
-> 数据来源：2026-08-12 七款产品统一基准实测；评分底稿 `docs/12-benchmark-scoring.md`；正式选择矩阵 `docs/10-selection-matrix.md`；产品页见 [第 5 章](../05-agent-experiences/README.md)
+> 数据来源：2026-08-12 七款产品统一基准实测；评分底稿与正式选择矩阵是仓库内部文档（`docs/12-benchmark-scoring.md`、`docs/10-selection-matrix.md`，站内打不开，结论已汇总进本页）；产品页见 [第 5 章](../05-agent-experiences/README.md)
 
 ## 本章解决什么问题
 

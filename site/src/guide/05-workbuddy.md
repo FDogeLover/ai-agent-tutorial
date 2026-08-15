@@ -93,7 +93,7 @@ lastUpdated: true
 | 结果定位与验证 | 产物列表 + Markdown 渲染 + 变更 diff；**注意：产物 6 份 vs 变更列表 5 份不一致** | 需两处核对 |
 | 生态与扩展 | 专家/技能/连接器、自动化、资料库入口 | 未逐一实测 |
 
-界面细节见 「界面讲解文档」(docs/11-interface-guides/01-workbuddy.md)（三张截图：整体界面、概览与产物、变更与 diff）。
+界面细节见 「界面讲解文档」（仓库 docs/11-interface-guides/01-workbuddy.md，站内打不开）（三张截图：整体界面、概览与产物、变更与 diff）。
 
 ## 7. 三类实测任务
 
@@ -199,7 +199,7 @@ lastUpdated: true
 - [Tencent WorkBuddy 简介](https://www.workbuddy.ai/docs/zh/workbuddy/Overview)、[订阅政策](https://www.workbuddy.ai/docs/zh/workbuddy/Subscription)、[定价](https://www.workbuddy.ai/docs/zh/workbuddy/pricing)、[积分说明](https://www.workbuddy.ai/docs/zh/workbuddy/credits)、[模型配置](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Model)（访问日期 2026-08-11）
 - [腾讯云 WorkBuddy 产品页](https://cloud.tencent.com/product/workbuddy)（访问日期 2026-08-11，注意与国际个人版分开）
 - 运行记录：`research/runs/2026-08-12-workbuddy-v5.3.11/run-record.md`
-- 界面讲解：`docs/11-interface-guides/01-workbuddy.md`
+- 界面讲解：仓库 `docs/11-interface-guides/01-workbuddy.md`
 
 ## 附录 C：内容性质标记
 

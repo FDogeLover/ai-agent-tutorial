@@ -93,6 +93,9 @@ lastUpdated: false
     ⚠️ <strong>易变信息提醒</strong>：价格、福利、版本会变化。正文中标注了核验日期，正式决策前请以官方页面为准。
     全部实测数据与方法论基于 2026-08 的七款桌面 Agent 统一基准测试。
   </p>
+  <p>
+    📁 <strong>仓库文件说明</strong>：正文里出现的 <code>docs/xx</code>、<code>research/</code>、<code>templates/</code> 等路径都是 GitHub 仓库内部文件，网站上打不开；需要时到仓库 <code>github.com/FDogeLover/ai-agent-tutorial</code> 对应路径查看。
+  </p>
 </div>
 
 <style scoped>

@@ -93,7 +93,7 @@ lastUpdated: true
 | 结果定位与验证 | 审查视图逐文件增删统计，可逐项核对 | 自检漏列第 7 个输入文件 |
 | 生态与扩展 | 自动化、技能、终端入口 | 未逐一实测 |
 
-界面细节见 「界面讲解文档」(docs/11-interface-guides/05-zcode-cn.md)（两张截图：整体界面/任务汇报、审查视图）。
+界面细节见 「界面讲解文档」（仓库 docs/11-interface-guides/05-zcode-cn.md，站内打不开）（两张截图：整体界面/任务汇报、审查视图）。
 
 ## 7. 三类实测任务
 
@@ -166,7 +166,7 @@ lastUpdated: true
 
 ## 10. 最终结论
 
-- 是否推荐新手试用：**有条件推荐**——有配置基础者可先体验 5 天新手额度；纯零基础建议先看教程第 2 章「模型/API」概念再试；
+- 是否推荐新手试用：**有条件推荐**——有配置基础者可先体验 5 天新手额度；纯零基础建议先读第 1 章（模型是什么）、第 4 章「自带模型（BYOK）」小节和附录 A 术语表的「模型」「API Key」条目，再决定是否尝试；
 - 什么条件下值得购买官方订阅：代码任务量大且需要完整变更审阅时，GLM Coding Plan 按档位选择；BYOK 用户按供应商用量评估；
 - 最适合作为主 Agent、辅助 Agent 还是专用工具：**代码/项目型主 Agent 候选**（变更透明性最高）；
 - 与相邻产品的差异：与 Qoder 同属代码优先型，ZCode 是 BYOK 路径（变更统计最细、写入需批准），Qoder 是托管 Auto 路径（最快最省但边界失分）；与 Codex 相比，ZCode 变更统计更细但配置门槛更高，Codex 托管订阅开箱即用；
@@ -193,7 +193,7 @@ lastUpdated: true
 
 - [ZCode 新手与权益](https://zcode.z.ai/cn/docs/welcome)、[ZCode 连接模型与套餐](https://zcode.z.ai/cn/docs/configuration)（访问日期 2026-08-11）
 - 运行记录：`research/runs/2026-08-12-zcode-cn-v3.7.6/run-record.md`
-- 界面讲解：`docs/11-interface-guides/05-zcode-cn.md`
+- 界面讲解：仓库 `docs/11-interface-guides/05-zcode-cn.md`
 
 ## 附录 C：内容性质标记
 
