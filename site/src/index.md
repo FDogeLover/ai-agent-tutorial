@@ -13,7 +13,7 @@ lastUpdated: false
   </p>
   <div class="home-actions">
     <a class="home-btn primary" href="/guide/00-preface.html">开始阅读 · 序章</a>
-    <a class="home-btn" href="/selection/README.html">看七款产品的选型结果</a>
+    <a class="home-btn" href="/guide/06-selection.html">看七款产品的选型结果</a>
   </div>
 </div>
 
@@ -24,7 +24,7 @@ lastUpdated: false
       <strong>第一篇 · 认识</strong>
       <span>Agent 到底是什么、能做什么不能做什么、人与它怎样分工。</span>
     </a>
-    <a class="home-card" href="/selection/README.html">
+    <a class="home-card" href="/guide/06-selection.html">
       <strong>第二篇 · 选型</strong>
       <span>不背参数先看维度；七款产品实测体验与横向选择。</span>
     </a>
@@ -57,7 +57,7 @@ lastUpdated: false
     <a class="home-card small" href="/guide/05-qoder.html"><strong>Qoder 中国版</strong><span>最快最省（注意边界）</span></a>
     <a class="home-card small" href="/guide/05-zcode.html"><strong>ZCode 中国版</strong><span>变更透明最强</span></a>
     <a class="home-card small" href="/guide/05-hermes.html"><strong>Hermes Desktop</strong><span>高自主 · 自动恢复实证</span></a>
-    <a class="home-card small" href="/selection/01-comparison-table.html"><strong>横向选择表</strong><span>六维评分对照</span></a>
+    <a class="home-card small" href="/guide/06-01-comparison-table.html"><strong>横向选择表</strong><span>六维评分对照</span></a>
   </div>
 </div>
 

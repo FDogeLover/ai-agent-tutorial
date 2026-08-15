@@ -9,7 +9,7 @@ lastUpdated: true
 
 > 状态：正文完成（2026-08-13）
 >
-> 数据来源：2026-08-12 七款产品统一基准实测；评分底稿与正式选择矩阵是仓库内部文档（`docs/12-benchmark-scoring.md`、`docs/10-selection-matrix.md`，站内打不开，结论已汇总进本页）；产品页见 [第 5 章](/selection/05-overview.html)
+> 数据来源：2026-08-12 七款产品统一基准实测；评分底稿与正式选择矩阵是仓库内部文档（`docs/12-benchmark-scoring.md`、`docs/10-selection-matrix.md`，站内打不开，结论已汇总进本页）；产品页见 [第 5 章](/guide/05-overview.html)
 
 ## 本章解决什么问题
 
@@ -19,9 +19,9 @@ lastUpdated: true
 
 | 页面 | 内容 | 适合谁 |
 |---|---|---|
-| [1. 横向选择表](/selection/01-comparison-table.html) | 六维评分总表 + 信息维度 + 关键差异点，说明为什么不排名 | 想直接看数据对照的人 |
-| [2. 新手决策路径](/selection/02-decision-path.html) | 按「硬约束 → 任务类型 → 偏好」四步走到 1–2 款候选 | 不确定从哪开始的人 |
-| [3. 个人选型结论](/selection/03-personal-conclusion.html) | 作者基于真实任务的选型示范 + 三类典型读者结论 | 想要一个完整样例的人 |
+| [1. 横向选择表](/guide/06-01-comparison-table.html) | 六维评分总表 + 信息维度 + 关键差异点，说明为什么不排名 | 想直接看数据对照的人 |
+| [2. 新手决策路径](/guide/06-02-decision-path.html) | 按「硬约束 → 任务类型 → 偏好」四步走到 1–2 款候选 | 不确定从哪开始的人 |
+| [3. 个人选型结论](/guide/06-03-personal-conclusion.html) | 作者基于真实任务的选型示范 + 三类典型读者结论 | 想要一个完整样例的人 |
 
 ## 先说结论
 

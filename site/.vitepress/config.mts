@@ -66,15 +66,28 @@ export default defineConfig({
           
           items: [
             { text: '第 4 章 选择维度', link: '/guide/04-how-to-choose' },
-            { text: '第 5 章 七款产品体验', link: '/selection/05-overview' },
-            { text: 'Claude 桌面版', link: '/guide/05-claude' },
-            { text: 'Codex 桌面版', link: '/guide/05-codex' },
-            { text: 'TraeWork 中国版', link: '/guide/05-traework' },
-            { text: 'WorkBuddy', link: '/guide/05-workbuddy' },
-            { text: 'Qoder 中国版', link: '/guide/05-qoder' },
-            { text: 'ZCode 中国版', link: '/guide/05-zcode' },
-            { text: 'Hermes Desktop', link: '/guide/05-hermes' },
-            { text: '第 6 章 横向比较与选型', link: '/selection/README' },
+            {
+              text: '第 5 章 七款产品体验',
+              link: '/guide/05-overview',
+              items: [
+                { text: 'Claude 桌面版', link: '/guide/05-claude' },
+                { text: 'Codex 桌面版', link: '/guide/05-codex' },
+                { text: 'TraeWork 中国版', link: '/guide/05-traework' },
+                { text: 'WorkBuddy', link: '/guide/05-workbuddy' },
+                { text: 'Qoder 中国版', link: '/guide/05-qoder' },
+                { text: 'ZCode 中国版', link: '/guide/05-zcode' },
+                { text: 'Hermes Desktop', link: '/guide/05-hermes' },
+              ],
+            },
+            {
+              text: '第 6 章 横向比较与选型',
+              link: '/guide/06-selection',
+              items: [
+                { text: '横向选择表', link: '/guide/06-01-comparison-table' },
+                { text: '新手决策路径', link: '/guide/06-02-decision-path' },
+                { text: '个人选型结论', link: '/guide/06-03-personal-conclusion' },
+              ],
+            },
           ],
         },
         {
@@ -131,36 +144,6 @@ export default defineConfig({
           collapsed: true,
           
           items: [{ text: '第 23 章 30 天实践计划', link: '/guide/23-30day-plan' }],
-        },
-      ],
-      '/selection/': [
-        {
-          text: '选择 Agent',
-          collapsible: true,
-          collapsed: true,
-          
-          items: [
-            { text: '第 6 章首页导读', link: '/selection/README' },
-            { text: '横向选择表', link: '/selection/01-comparison-table' },
-            { text: '新手决策路径', link: '/selection/02-decision-path' },
-            { text: '个人选型结论', link: '/selection/03-personal-conclusion' },
-          ],
-        },
-        {
-          text: '七款产品体验（第 5 章）',
-          collapsible: true,
-          collapsed: true,
-          
-          items: [
-            { text: '总览与测试条件', link: '/selection/05-overview' },
-            { text: 'Claude 桌面版', link: '/guide/05-claude' },
-            { text: 'Codex 桌面版', link: '/guide/05-codex' },
-            { text: 'TraeWork 中国版', link: '/guide/05-traework' },
-            { text: 'WorkBuddy', link: '/guide/05-workbuddy' },
-            { text: 'Qoder 中国版', link: '/guide/05-qoder' },
-            { text: 'ZCode 中国版', link: '/guide/05-zcode' },
-            { text: 'Hermes Desktop', link: '/guide/05-hermes' },
-          ],
         },
       ],
       '/appendix/': [

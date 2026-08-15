@@ -34,12 +34,12 @@ function buildSrcMap() {
   map.set('chapters/05-agent-experiences/05-qoder-cn.md', '/guide/05-qoder.html')
   map.set('chapters/05-agent-experiences/06-zcode-cn.md', '/guide/05-zcode.html')
   map.set('chapters/05-agent-experiences/07-hermes-desktop.md', '/guide/05-hermes.html')
-  map.set('chapters/05-agent-experiences/README.md', '/selection/05-overview.html')
+  map.set('chapters/05-agent-experiences/README.md', '/guide/05-overview.html')
   // 第 6 章
-  map.set('chapters/06-selection/README.md', '/selection/README.html')
-  map.set('chapters/06-selection/01-comparison-table.md', '/selection/01-comparison-table.html')
-  map.set('chapters/06-selection/02-decision-path.md', '/selection/02-decision-path.html')
-  map.set('chapters/06-selection/03-personal-conclusion.md', '/selection/03-personal-conclusion.html')
+  map.set('chapters/06-selection/README.md', '/guide/06-selection.html')
+  map.set('chapters/06-selection/01-comparison-table.md', '/guide/06-01-comparison-table.html')
+  map.set('chapters/06-selection/02-decision-path.md', '/guide/06-02-decision-path.html')
+  map.set('chapters/06-selection/03-personal-conclusion.md', '/guide/06-03-personal-conclusion.html')
   // 附录
   map.set('chapters/appendix/00-glossary.md', '/appendix/00-glossary.html')
   map.set('chapters/appendix/01-task-brief-template.md', '/appendix/01-task-brief-template.html')
@@ -168,11 +168,11 @@ const PAGES = [
     out: `guide/${out}.md`,
     slug: `ch-05-${src}`,
   })),
-  { src: 'chapters/05-agent-experiences/README.md', out: 'selection/05-overview.md', slug: 'ch-05-overview' },
-  { src: 'chapters/06-selection/README.md', out: 'selection/README.md', slug: 'ch-06' },
-  { src: 'chapters/06-selection/01-comparison-table.md', out: 'selection/01-comparison-table.md', slug: 'ch-06-01' },
-  { src: 'chapters/06-selection/02-decision-path.md', out: 'selection/02-decision-path.md', slug: 'ch-06-02' },
-  { src: 'chapters/06-selection/03-personal-conclusion.md', out: 'selection/03-personal-conclusion.md', slug: 'ch-06-03' },
+  { src: 'chapters/05-agent-experiences/README.md', out: 'guide/05-overview.md', slug: 'ch-05-overview' },
+  { src: 'chapters/06-selection/README.md', out: 'guide/06-selection.md', slug: 'ch-06' },
+  { src: 'chapters/06-selection/01-comparison-table.md', out: 'guide/06-01-comparison-table.md', slug: 'ch-06-01' },
+  { src: 'chapters/06-selection/02-decision-path.md', out: 'guide/06-02-decision-path.md', slug: 'ch-06-02' },
+  { src: 'chapters/06-selection/03-personal-conclusion.md', out: 'guide/06-03-personal-conclusion.md', slug: 'ch-06-03' },
   ...appendix.map((f) => ({ src: `chapters/appendix/${f}.md`, out: `appendix/${f}.md`, slug: `appendix-${f}` })),
 ]
 
