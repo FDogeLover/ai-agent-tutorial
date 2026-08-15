@@ -48,6 +48,7 @@ function buildSrcMap() {
   map.set('chapters/appendix/04-skill-checklist.md', '/appendix/04-skill-checklist.html')
   map.set('chapters/appendix/05-harness-canvas.md', '/appendix/05-harness-canvas.html')
   map.set('chapters/appendix/06-troubleshooting.md', '/appendix/06-troubleshooting.html')
+  map.set('chapters/appendix/07-installation-guide.md', '/appendix/07-installation-guide.html')
   return map
 }
 
@@ -157,7 +158,7 @@ const products = [
 ]
 const appendix = [
   '00-glossary', '01-task-brief-template', '02-permission-checklist', '03-agent-log-template',
-  '04-skill-checklist', '05-harness-canvas', '06-troubleshooting',
+  '04-skill-checklist', '05-harness-canvas', '06-troubleshooting', '07-installation-guide',
 ]
 
 const PAGES = [

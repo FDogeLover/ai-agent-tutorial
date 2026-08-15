@@ -52,7 +52,7 @@
 
 - [第 23 章 一份 30 天实践计划](23-30day-plan.md)
 
-### 附录（A–G）
+### 附录（A–H）
 
 - [A 核心术语表](appendix/00-glossary.md)
 - [B 任务卡模板](appendix/01-task-brief-template.md)
@@ -61,6 +61,7 @@
 - [E Skill 设计检查表](appendix/04-skill-checklist.md)
 - [F Harness 设计画布](appendix/05-harness-canvas.md)
 - [G 常见失败排查表](appendix/06-troubleshooting.md)
+- [H 新手安装指引](appendix/07-installation-guide.md)
 
 ## 写作约定
 

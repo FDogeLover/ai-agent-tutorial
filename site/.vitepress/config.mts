@@ -177,6 +177,7 @@ export default defineConfig({
             { text: 'E Skill 设计检查表', link: '/appendix/04-skill-checklist' },
             { text: 'F Harness 设计画布', link: '/appendix/05-harness-canvas' },
             { text: 'G 常见失败排查表', link: '/appendix/06-troubleshooting' },
+            { text: 'H 新手安装指引', link: '/appendix/07-installation-guide' },
           ],
         },
       ],
