@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 452" role="img" aria-label="选型决策路径四步流程图：硬约束过滤、按任务类型选起点、偏好卡定胜负、真实任务试用">
+  <style>
+    text{font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+    .t{fill:#1e293b}.s{fill:#64748b}
+    .card{fill:#ffffff;stroke:#e2e8f0;stroke-width:1.5}
+    .badge{fill:#2563eb}
+    .wt{fill:#ffffff}
+    .brandline{stroke:#2563eb;stroke-width:1.6;fill:none}
+    .dash{stroke:#94a3b8;stroke-width:1;stroke-dasharray:3 3;fill:none}
+    @media (prefers-color-scheme: dark){
+      .t{fill:#e2e8f0}.s{fill:#94a3b8}
+      .card{fill:#151d2b;stroke:#334155}
+      .badge{fill:#3b82f6}
+      .brandline{stroke:#3b82f6}
+      .dash{stroke:#64748b}
+    }
+  </style>
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" class="badge"/>
+    </marker>
+  </defs>
+
+  <!-- 第 1 步 -->
+  <rect x="60" y="40" width="280" height="64" rx="10" class="card"/>
+  <circle cx="94" cy="72" r="15" class="badge"/>
+  <text x="94" y="77" text-anchor="middle" font-size="14" font-weight="bold" class="wt">1</text>
+  <text x="120" y="78" font-size="15" font-weight="bold" class="t">硬约束过滤</text>
+  <line x1="340" y1="72" x2="368" y2="72" class="dash"/>
+  <text x="376" y="62" font-size="12" class="s">地区 · 账号 · 支付 · 合规，逐条回答</text>
+  <text x="376" y="82" font-size="12" class="s">任一为「否」即排除该产品</text>
+
+  <line x1="200" y1="104" x2="200" y2="143" class="brandline" marker-end="url(#ah)"/>
+
+  <!-- 第 2 步 -->
+  <rect x="60" y="148" width="280" height="64" rx="10" class="card"/>
+  <circle cx="94" cy="180" r="15" class="badge"/>
+  <text x="94" y="185" text-anchor="middle" font-size="14" font-weight="bold" class="wt">2</text>
+  <text x="120" y="186" font-size="15" font-weight="bold" class="t">按任务类型选起点</text>
+  <line x1="340" y1="180" x2="368" y2="180" class="dash"/>
+  <text x="376" y="170" font-size="12" class="s">办公 → TraeWork / WorkBuddy</text>
+  <text x="376" y="190" font-size="12" class="s">代码 → Qoder / ZCode · 综合 → Codex · 自托管 → Hermes</text>
+
+  <line x1="200" y1="212" x2="200" y2="251" class="brandline" marker-end="url(#ah)"/>
+
+  <!-- 第 3 步 -->
+  <rect x="60" y="256" width="280" height="64" rx="10" class="card"/>
+  <circle cx="94" cy="288" r="15" class="badge"/>
+  <text x="94" y="293" text-anchor="middle" font-size="14" font-weight="bold" class="wt">3</text>
+  <text x="120" y="294" font-size="15" font-weight="bold" class="t">偏好卡定胜负</text>
+  <line x1="340" y1="288" x2="368" y2="288" class="dash"/>
+  <text x="376" y="278" font-size="12" class="s">成本可见 · 数据边界 · 变更核对</text>
+  <text x="376" y="298" font-size="12" class="s">接受配置与否 · 审阅后提交，按需取舍</text>
+
+  <line x1="200" y1="320" x2="200" y2="359" class="brandline" marker-end="url(#ah)"/>
+
+  <!-- 第 4 步 -->
+  <rect x="60" y="364" width="280" height="64" rx="10" class="card"/>
+  <circle cx="94" cy="396" r="15" class="badge"/>
+  <text x="94" y="401" text-anchor="middle" font-size="14" font-weight="bold" class="wt">4</text>
+  <text x="120" y="402" font-size="15" font-weight="bold" class="t">真实任务试用</text>
+  <line x1="340" y1="396" x2="368" y2="396" class="dash"/>
+  <text x="376" y="386" font-size="12" class="s">用你自己的任务试跑，逐项记录指标</text>
+  <text x="376" y="406" font-size="12" class="s">7 天后对比，再决定是否付费</text>
+</svg>

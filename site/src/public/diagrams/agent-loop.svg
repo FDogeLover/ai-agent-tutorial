@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Agent 工作流程图：你给出目标与材料，Agent 循环执行理解、行动、反馈，你验收并对结果负责">
+  <style>
+    text{font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+    .t{fill:#1e293b}.s{fill:#64748b}
+    .card{fill:#ffffff;stroke:#e2e8f0;stroke-width:1.5}
+    .zone{fill:#f5f8ff;stroke:#bfdbfe;stroke-width:1.5}
+    .node{fill:#ffffff;stroke:#2563eb;stroke-width:1.5}
+    .brandline{stroke:#2563eb;stroke-width:1.6;fill:none}
+    .brandfill{fill:#2563eb}
+    .brandtext{fill:#2563eb}
+    @media (prefers-color-scheme: dark){
+      .t{fill:#e2e8f0}.s{fill:#94a3b8}
+      .card{fill:#151d2b;stroke:#334155}
+      .zone{fill:#17233b;stroke:#1e3a5f}
+      .node{fill:#1e293b;stroke:#3b82f6}
+      .brandline{stroke:#3b82f6}
+      .brandfill{fill:#3b82f6}
+      .brandtext{fill:#60a5fa}
+    }
+  </style>
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" class="brandfill"/>
+    </marker>
+  </defs>
+
+  <!-- 左：你 -->
+  <rect x="20" y="120" width="116" height="84" rx="10" class="card"/>
+  <text x="78" y="158" text-anchor="middle" font-size="16" font-weight="bold" class="t">你</text>
+  <text x="78" y="182" text-anchor="middle" font-size="12" class="s">给出任务</text>
+
+  <!-- 箭头：你 → Agent -->
+  <line x1="140" y1="162" x2="243" y2="162" class="brandline" marker-end="url(#ah)"/>
+  <text x="192" y="136" text-anchor="middle" font-size="12" class="s">目标 · 材料</text>
+  <text x="192" y="152" text-anchor="middle" font-size="12" class="s">约束 · 验收标准</text>
+
+  <!-- 中：Agent -->
+  <rect x="250" y="56" width="220" height="208" rx="12" class="zone"/>
+  <text x="360" y="84" text-anchor="middle" font-size="15" font-weight="bold" class="brandtext">Agent</text>
+
+  <rect x="278" y="98" width="124" height="34" rx="8" class="node"/>
+  <text x="340" y="120" text-anchor="middle" font-size="13" class="t">理解</text>
+  <line x1="340" y1="132" x2="340" y2="142" class="brandline" marker-end="url(#ah)"/>
+
+  <rect x="278" y="146" width="124" height="34" rx="8" class="node"/>
+  <text x="340" y="168" text-anchor="middle" font-size="13" class="t">行动</text>
+  <line x1="340" y1="180" x2="340" y2="190" class="brandline" marker-end="url(#ah)"/>
+
+  <rect x="278" y="194" width="124" height="34" rx="8" class="node"/>
+  <text x="340" y="216" text-anchor="middle" font-size="13" class="t">反馈</text>
+
+  <!-- 循环回路：反馈 → 理解 -->
+  <path d="M 402 211 C 446 211 446 115 406 115" class="brandline" marker-end="url(#ah)"/>
+  <text x="448" y="167" font-size="11" class="s">循环</text>
+
+  <!-- 箭头：Agent → 你 -->
+  <line x1="470" y1="162" x2="580" y2="162" class="brandline" marker-end="url(#ah)"/>
+  <text x="528" y="136" text-anchor="middle" font-size="12" class="s">成品 · 过程记录</text>
+  <text x="528" y="152" text-anchor="middle" font-size="12" class="s">自检说明</text>
+
+  <!-- 右：你（验收） -->
+  <rect x="584" y="120" width="116" height="84" rx="10" class="card"/>
+  <text x="642" y="158" text-anchor="middle" font-size="16" font-weight="bold" class="t">你</text>
+  <text x="642" y="182" text-anchor="middle" font-size="12" class="s">我检查，我负责</text>
+</svg>

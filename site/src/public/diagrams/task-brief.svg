@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 356" role="img" aria-label="任务卡六要素示意图：目标、上下文、输入材料、范围与约束、交付物、验收标准">
+  <style>
+    text{font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif}
+    .t{fill:#1e293b}.s{fill:#64748b}
+    .card{fill:#ffffff;stroke:#e2e8f0;stroke-width:1.5}
+    .cell{fill:#f6f8fa;stroke:#e2e8f0;stroke-width:1}
+    .accent{fill:#2563eb}
+    .brandtext{fill:#2563eb}
+    .divider{stroke:#e2e8f0;stroke-width:1}
+    @media (prefers-color-scheme: dark){
+      .t{fill:#e2e8f0}.s{fill:#94a3b8}
+      .card{fill:#151d2b;stroke:#334155}
+      .cell{fill:#1e293b;stroke:#2c3a4e}
+      .accent{fill:#3b82f6}
+      .brandtext{fill:#60a5fa}
+      .divider{stroke:#334155}
+    }
+  </style>
+
+  <!-- 卡片外框 -->
+  <rect x="60" y="24" width="600" height="276" rx="12" class="card"/>
+  <text x="84" y="60" font-size="18" font-weight="bold" class="brandtext">任务卡</text>
+  <text x="636" y="60" text-anchor="end" font-size="12" class="s">六要素 · 缺一个，Agent 就要猜一次</text>
+  <line x1="76" y1="76" x2="644" y2="76" class="divider"/>
+
+  <!-- 第一行 -->
+  <g>
+    <rect x="84" y="92" width="264" height="56" rx="8" class="cell"/>
+    <rect x="84" y="104" width="4" height="32" rx="2" class="accent"/>
+    <text x="102" y="114" font-size="14" font-weight="bold" class="t">目标</text>
+    <text x="102" y="136" font-size="12" class="s">要达成什么？一句话说清做什么、为谁</text>
+
+    <rect x="372" y="92" width="264" height="56" rx="8" class="cell"/>
+    <rect x="372" y="104" width="4" height="32" rx="2" class="accent"/>
+    <text x="390" y="114" font-size="14" font-weight="bold" class="t">上下文</text>
+    <text x="390" y="136" font-size="12" class="s">Agent 必须知道的背景与口径</text>
+  </g>
+
+  <!-- 第二行 -->
+  <g>
+    <rect x="84" y="160" width="264" height="56" rx="8" class="cell"/>
+    <rect x="84" y="172" width="4" height="32" rx="2" class="accent"/>
+    <text x="102" y="182" font-size="14" font-weight="bold" class="t">输入材料</text>
+    <text x="102" y="204" font-size="12" class="s">哪些文件、在哪里、各自用途</text>
+
+    <rect x="372" y="160" width="264" height="56" rx="8" class="cell"/>
+    <rect x="372" y="172" width="4" height="32" rx="2" class="accent"/>
+    <text x="390" y="182" font-size="14" font-weight="bold" class="t">范围与约束</text>
+    <text x="390" y="204" font-size="12" class="s">能读写的范围、可否联网、禁区写明</text>
+  </g>
+
+  <!-- 第三行 -->
+  <g>
+    <rect x="84" y="228" width="264" height="56" rx="8" class="cell"/>
+    <rect x="84" y="240" width="4" height="32" rx="2" class="accent"/>
+    <text x="102" y="250" font-size="14" font-weight="bold" class="t">交付物</text>
+    <text x="102" y="272" font-size="12" class="s">文件名、格式、数量、位置</text>
+
+    <rect x="372" y="228" width="264" height="56" rx="8" class="cell"/>
+    <rect x="372" y="240" width="4" height="32" rx="2" class="accent"/>
+    <text x="390" y="250" font-size="14" font-weight="bold" class="t">验收标准</text>
+    <text x="390" y="272" font-size="12" class="s">可逐项打勾的合格条件</text>
+  </g>
+
+  <!-- 底部提示 -->
+  <text x="360" y="336" text-anchor="middle" font-size="13" font-weight="bold" class="brandtext">写卡花 5 分钟，返工省 50 分钟——判断你做完，执行留给 Agent</text>
+</svg>
